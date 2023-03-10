@@ -1,10 +1,10 @@
 public class testFile {
     public int roll;
-    public String name;
+    public String result;
 
-    public testFile(int roll, String name) {
+    public testFile(int roll, String result) {
         this.roll = roll;
-        this.name = name;
+        this.result = result;
     }
 
     public int getRoll() {
@@ -15,11 +15,11 @@ public class testFile {
         this.roll = roll;
     }
 
-    public String getName() {
-        return name;
+    public String getResult() {
+        return result;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setResult(String result) {
+        this.result = result;
     }
 }
