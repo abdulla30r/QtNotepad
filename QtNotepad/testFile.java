@@ -5,6 +5,13 @@ public class testFile {
     public testFile(int id, String name) {
         this.id = id;
         this.name = name;
+
+    public int roll;
+    public String result;
+
+    public testFile(int roll, String result) {
+        this.roll = roll;
+        this.result = result;
     }
 
     public int getId() {
@@ -15,11 +22,11 @@ public class testFile {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getResult() {
+        return result;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setResult(String result) {
+        this.result = result;
     }
 }
