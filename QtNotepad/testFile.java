@@ -1,18 +1,18 @@
 public class testFile {
-    public int roll;
+    public int id;
     public String name;
 
-    public testFile(int roll, String name) {
-        this.roll = roll;
+    public testFile(int id, String name) {
+        this.id = id;
         this.name = name;
     }
 
-    public int getRoll() {
-        return roll;
+    public int getId() {
+        return id;
     }
 
-    public void setRoll(int roll) {
-        this.roll = roll;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
